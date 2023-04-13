@@ -1,0 +1,26 @@
+body{
+background-color: aqua;
+}
+h1{
+    background-color: red;
+    color: greenyellow;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-size: 35px;
+}
+canvas{
+    margin-top: 50px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    animation-name: hababi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes hababi{
+    from{box-shadow: 1px 1px 38px gold;}
+    to{box-shadow: 1px 1px 38px silver;}
+}
+
